@@ -1,0 +1,30 @@
+{
+  "defaultGenre": "玄幻",
+  "defaultChapterLength": 3000,
+  "updateFrequency": "daily",
+  "coolPointDensity": "high",
+  "genres": {
+    "玄幻": {
+      "elements": ["系统", "金手指", "越级挑战", "退婚", "重生"],
+      "powerSystem": "斗者→斗师→大斗师→斗王→斗皇→斗宗→斗尊→斗圣→斗帝",
+      "settings": ["宗门", "家族", "秘境", "丹药", "功法"]
+    },
+    "都市": {
+      "elements": ["神豪", "兵王", "医仙", "总裁", "校花"],
+      "settings": ["公司", "学校", "医院", "军营", "豪门"]
+    },
+    "言情": {
+      "elements": ["重生", "甜宠", "虐恋", "总裁", "穿越"],
+      "settings": ["豪门", "娱乐圈", "职场", "校园"]
+    },
+    "科幻": {
+      "elements": ["末世", "机甲", "星际", "AI", "异能"],
+      "settings": ["飞船", "基地", "外星", "实验室"]
+    }
+  },
+  "templates": {
+    "outline": "templates/outline-template.txt",
+    "character": "templates/character-template.txt",
+    "chapter": "templates/chapter-template.txt"
+  }
+}
