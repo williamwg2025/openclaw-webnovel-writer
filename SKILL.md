@@ -28,8 +28,8 @@ tags: novel, writing, webnovel, creative, storytelling
 ## 🚀 安装
 
 ```bash
-cd /root/.openclaw/workspace/skills
-git clone https://github.com/williamwg2025/openclaw-webnovel-writer.git webnovel-writer
+cd ~/.openclaw/workspace/skills
+# 技能已安装在：~/.openclaw/workspace/skills/webnovel-writer
 chmod +x webnovel-writer/scripts/*.py
 ```
 
@@ -109,7 +109,7 @@ python3 webnovel-writer/scripts/trend-analysis.py --genre 玄幻
 ## 📋 配置
 
 配置文件：
-`/root/.openclaw/workspace/skills/webnovel-writer/config/writer-config.json`
+`~/.openclaw/workspace/skills/webnovel-writer/config/writer-config.json`
 
 可配置项：
 - 默认题材
@@ -128,3 +128,18 @@ MIT-0
 **作者：** @williamwg2025  
 **版本：** 1.0.0  
 **灵感来源：** 起点中文网、纵横中文网、番茄小说等热门作品分析
+
+---
+
+## 🔒 安全说明
+
+- **本地执行：** 所有脚本在本地运行，不联网
+- **权限范围：** 仅需读取 ~/.openclaw/ 目录
+- **无外部依赖：** 不克隆外部仓库，所有代码已包含
+- **数据安全：** 不上传任何数据到外部服务器
+
+---
+
+**作者：** @williamwg2025  
+**版本：** 1.0.1  
+**许可证：** MIT-0
