@@ -1,11 +1,25 @@
 ---
-name: webnovel-writer
-displayName: WebNovel Writer
+name: openclaw-webnovel-writer
+displayName: OpenClaw WebNovel Writer - 网文写作助手
 version: 1.0.0
-description: 爆款网文小说生成助手，支持玄幻、都市、言情、科幻等多种题材。自动生成大纲、章节、人物设定，助你成为网文大神。
+description: |
+  OpenClaw 网文写作助手 - 生成爆款网络小说。
+  支持玄幻、都市、言情、科幻等多种题材。
+  自动生成大纲、章节、人物设定、世界观。助你成为网文大神。
+  关键词：openclaw, webnovel, writing, ai, creative, fiction, novel, outline
 license: MIT-0
 acceptLicenseTerms: true
-tags: novel, writing, webnovel, creative, storytelling
+tags:
+  - openclaw
+  - webnovel
+  - writing
+  - ai
+  - creative
+  - fiction
+  - novel
+  - outline
+  - character-design
+  - story-generator
 ---
 
 # WebNovel Writer - 网文小说生成助手
